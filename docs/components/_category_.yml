@@ -1,0 +1,6 @@
+label: ⚙ Components
+position: 3
+link:
+  type: generated-index
+  slug: components
+  description: Scaffold-ETH-Svelte provides a set of pre-built components for common Web3 use cases. You can make use of them to accelerate and simplify your dApp development.
