@@ -27,5 +27,5 @@ Here are the main components:
 - [**Wagmi**](https://wagmi.sh/core/getting-started) for functions to start working with Ethereum, and a custom-built [**Wagmi-Svelte**](https://wagmi-svelte.byteatatime.dev) library for Svelte 5 reactivity.
 - [**Viem**](https://viem.sh/docs/getting-started.html) as low-level interface that provides primitives to interact with Ethereum. The alternative to ethers.js and web3.js.
 - [**Svelte**](https://svelte.dev/docs) and [**SvelteKit**](https://kit.svelte.dev/docs) for a fully-featured web framework.
-- [**RainbowKit**](https://www.rainbowkit.com/docs/) for adding wallet connection.
+- [**Web3Modal**](https://docs.walletconnect.com/web3modal/javascript/about) for connecting to your wallet.
 - [**DaisyUI**](https://daisyui.com/docs/) for pre-built [Tailwind CSS](https://tailwindui.com/components) components.
