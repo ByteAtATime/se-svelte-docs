@@ -6,6 +6,8 @@ sidebar_position: 5
 
 The `ChooseTokenModal` component is a modal that allows users to select a token from a list of supported tokens.
 
+![ChooseTokenModal Example](/img/components/ChooseTokenModal.png)
+
 ## Import
 
 ```tsx
@@ -41,12 +43,12 @@ let token = $state<Token | undefined>();
 
 ## Props
 
-| Prop                | Type       | Default Value | Description                                                                                                                                        |
-| ------------------- | ---------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **token**           | `Token`    | `undefined`   | Token object selected by the user.                                                                                                                 |
-| **chainId**         | `number`   | `undefined`   | Chain ID to get tokens for. If not provided, will default to the chain the user is currently connected to, with a fallback of `targetNetworks[0]`. |
-| **suggestedTokens** | `string[]` | `[]`          | List of token addresses to suggest to the user at the top of the modal.                                                                            |
-| **onchange**        | `function` | `undefined`   | Callback function that is called when the user selects a token.                                                                                    |
+| Prop                           | Type       | Default Value | Description                                                                                                                                        |
+| ------------------------------ | ---------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **token**                      | `Token`    | `undefined`   | Token object selected by the user.                                                                                                                 |
+| **chainId** (optional)         | `number`   | `undefined`   | Chain ID to get tokens for. If not provided, will default to the chain the user is currently connected to, with a fallback of `targetNetworks[0]`. |
+| **suggestedTokens** (optional) | `string[]` | `undefined`   | List of token addresses to suggest to the user at the top of the modal.                                                                            |
+| **onchange** (optional)        | `function` | `undefined`   | Callback function that is called when the user selects a token.                                                                                    |
 
 The `Token` type is defined like so (which you can import from `$lib/components/scaffold-eth`):
 
