@@ -7,7 +7,7 @@ slug: /
 
 Scaffold-ETH Svelte is a port of the amazing [Scaffold-ETH 2](https://scaffoldeth.io) into SvelteJS 5, giving you everything you need to get started building decentralized applications on Ethereum! 🚀
 
-⚙️ Built using NextJS, RainbowKit, Hardhat, Foundry, Wagmi, and TypeScript.
+⚙️ Built using SvelteKit, RainbowKit, Hardhat, Foundry, Wagmi, and TypeScript.
 
 ## About Scaffold-ETH-Svelte
 
